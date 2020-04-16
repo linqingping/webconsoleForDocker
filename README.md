@@ -2,7 +2,7 @@
 ## 解压并执行
 ```
 docker load < docker-exec-web-console.tar
-docker run \
+docker run -id \
 	--name docker-exec-web-console \
 	-p 9999:8888 \
 	-e "CONTEXT_PATH=/"\
