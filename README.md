@@ -1,5 +1,7 @@
 # 通过浏览器访问docker
+## 解压并执行
 ```
+docker load < docker-exec-web-console.tar
 docker run \
 	--name docker-exec-web-console \
 	-p 9999:8888 \
